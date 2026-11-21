@@ -1,0 +1,2 @@
+import Link from 'next/link';import {personalInfo} from '@/lib/data';
+export default function Header(){return <header className="site-header"><nav className="shell navigation" aria-label="Navegación principal"><Link className="brand" href="/"><span className="brand-icon">FS</span><span>{personalInfo.name}</span></Link><ul><li><Link href="/">Inicio</Link></li><li><Link href="/projects">Proyectos</Link></li><li><Link href="/about">Sobre mí</Link></li><li><Link className="nav-contact" href="/contact">Contacto</Link></li></ul></nav></header>;}

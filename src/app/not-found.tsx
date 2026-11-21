@@ -1,0 +1,1 @@
+import Link from 'next/link';export default function NotFound(){return <div className="shell page"><section className="glass detail-copy"><span className="eyebrow">404</span><h1>Página no encontrada</h1><p>La dirección que buscas no está disponible.</p><Link className="button primary" href="/projects">Ver proyectos</Link></section></div>;}

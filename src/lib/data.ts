@@ -1,0 +1,7 @@
+import type { Project } from '@/types';
+export const projects: Project[] = [
+ {slug:'biblioteca',title:'Biblioteca digital',description:'Gestión de autores y libros con búsqueda, filtros, paginación y estadísticas. Un proyecto académico de APIs integradas.',image:'/projects/biblioteca.png',technologies:['Next.js','TypeScript','PostgreSQL','Prisma','Supabase'],demoUrl:'https://biblioteca-solorzano.vercel.app',githubUrl:'https://github.com/faviosolorzano/Biblioteca_Solorzano',featured:true},
+ {slug:'nextauth',title:'Autenticación y seguridad',description:'Acceso con Google, GitHub y credenciales. Registro de usuarios, contraseñas con bcrypt y bloqueo por intentos fallidos.',image:'/projects/nextauth.png',technologies:['Next.js','NextAuth.js','bcrypt','PostgreSQL'],githubUrl:'https://github.com/faviosolorzano/Lab13-NextAuth',featured:true},
+ {slug:'portafolio-seo',title:'Portafolio y SEO',description:'Mi portafolio académico con metadatos dinámicos, imágenes optimizadas, sitemap y una sección de contacto.',image:'/projects/portafolio.png',technologies:['Next.js','TypeScript','Tailwind CSS','SEO'],featured:false},
+];
+export const personalInfo={name:'Favio Solorzano',title:'Estudiante de Desarrollo Web',description:'Construyo y aprendo a través de proyectos web: interfaces, APIs, bases de datos y experiencias que conectan.',email:'favio.solorzano@tecsup.edu.pe',github:'https://github.com/faviosolorzano',siteUrl:process.env.NEXT_PUBLIC_SITE_URL||'http://localhost:3000',avatar:'/profile.png'};
